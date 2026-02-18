@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: '6c7b816b-86bf-4b52-952b-cf62b0'
+  azureServiceConnectionId: '57e2d243-130a-4d15-800e-47bcd42bbf5a'
   webAppName: 'testeeeappee'
   pythonVersion: '3.11'
 
