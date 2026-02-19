@@ -2,8 +2,8 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: '57e2d243-130a-4d15-800e-47bcd42bbf5a'
-  webAppName: 'testeeeappee'
+  azureServiceConnectionId: '0c15e401-d56b-4883-9af5-acdc31525557'
+  webAppName: 'savithawebtest'
   pythonVersion: '3.11'
 
 stages:
@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: testeeeappee
+    environment: savithawebtest
 
     strategy:
       runOnce:
